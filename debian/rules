@@ -69,6 +69,8 @@ install: build
 
 	# Add here commands to install the package into debian/thrift-fb303.
 	$(MAKE) DESTDIR=$(CURDIR)/debian/thrift-fb303 install
+	# Hackety hack hack
+	find $(CURDIR)/debian/thrift-fb303 -type f -name \*pyc -exec rm {} \;
 
 
 # Build architecture-independent files here.
