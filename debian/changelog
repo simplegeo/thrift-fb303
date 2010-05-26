@@ -1,3 +1,9 @@
+thrift-fb303 (0.1-2) unstable; urgency=low
+
+  * Don't install .pyc files, clean up build artifacts.
+
+ -- Ian Eure <ian@simplegeo.com>  Wed, 26 May 2010 09:47:45 -0700
+
 thrift-fb303 (0.1-1) unstable; urgency=low
 
   * Initial Release.
