@@ -1,3 +1,9 @@
+thrift-fb303 (0.1-3) unstable; urgency=low
+
+  * Architecture: all, not any.
+
+ -- Ian Eure <ian@simplegeo.com>  Mon, 14 Jun 2010 12:40:27 -0700
+
 thrift-fb303 (0.1-2) unstable; urgency=low
 
   * Don't install .pyc files, clean up build artifacts.

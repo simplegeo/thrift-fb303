@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5), autotools-dev, autoconf, automake, libtool, lib
 Standards-Version: 3.8.4
 
 Package: thrift-fb303
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Facebook's contrib fb303 library
  A standard interface to monitoring, dynamic options and
