@@ -33,6 +33,21 @@ AC_INIT([libfb303],[20080209])
 FB_INITIALIZE([localinstall])
 AC_PREFIX_DEFAULT([/usr/local])
 
+AC_CHECK_HEADERS([netinet/in.h])
+
+AC_TYPE_INT16_T
+AC_TYPE_INT32_T
+AC_TYPE_INT64_T
+AC_TYPE_INT8_T
+AC_TYPE_MODE_T
+AC_TYPE_OFF_T
+AC_TYPE_SIZE_T
+AC_TYPE_SSIZE_T
+AC_TYPE_UINT16_T
+AC_TYPE_UINT32_T
+AC_TYPE_UINT64_T
+AC_TYPE_UINT8_T
+
 ############################################################################
 # User Configurable. Change With CAUTION!
 # User can include custom makefile rules. Uncomment and update only <name> in PRODUCT_MK.
